@@ -1,5 +1,5 @@
 # double-pendulum
-This repository regroups different programs developped for a school work.
+This repository regroups different pieces of software developped for a high school project.
 
 ## DISCLAIMER
 The programs available on this repository do not offer any guarantee. Any possible damage caused by their usage is at your own charge.
