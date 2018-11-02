@@ -9,3 +9,6 @@ Poincare_map.py makes calls to the program gnuplot.exe. **I do not possess any r
 
 ## Images
 The icons of the GUI version of the simulation were taken from Punchet Sangnil on [this website](https://chetmhcid.files.wordpress.com/2014/02/task-icon-list_800px.jpg). I do not possess any right on these images.
+
+## Licence
+Most of the software available here is distributed under the LGPL license, unless if stated otherwhise. [See license](https://github.com/alexishorner/double-pendulum/edit/master/LISENCE.md) for more information.
