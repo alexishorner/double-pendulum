@@ -12,3 +12,6 @@ The icons of the GUI version of the simulation were taken from Punchet Sangnil o
 
 ## Licence
 Most of the software available here is distributed under the LGPL license, unless if stated otherwhise. [See license](https://github.com/alexishorner/double-pendulum/blob/master/LICENCE.md) for more information.
+
+## Compiling from source
+If you want to compile the sources (e.g. if you do not have Windows) you have to make sure that the executables you obtain are ordered in the same way (same folder, same executable names) if you want them to work together. Gnuplot sources are not available, but you can download it for your operating system on [the official website](http://www.gnuplot.info/download.html).
