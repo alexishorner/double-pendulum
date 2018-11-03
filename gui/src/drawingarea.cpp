@@ -332,7 +332,7 @@ void DrawingArea::setQualityLevel(int qualityLevel)
 {
     m_qualityLevel = static_cast<Quality::Enum>(qualityLevel);
 #ifdef __linux__
-    switch(mQualityLevel)
+    switch(qualityLevel)
     {
     case 0:
         setRenderHint(QPainter::Antialiasing, false);

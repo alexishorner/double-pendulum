@@ -271,19 +271,19 @@ void GraphArea::setQualityLevel(int qualityLevel)
 {
     m_qualityLevel = static_cast<Quality::Enum>(qualityLevel);
 #ifdef __linux__
-    switch(mQualityLevel)
+    switch(qualityLevel)
     {
     case 0:
-        mView->setRenderHint(QPainter::Antialiasing, false);
-        mView->setRenderHint(QPainter::SmoothPixmapTransform, false);
+        m_view->setRenderHint(QPainter::Antialiasing, false);
+        m_view->setRenderHint(QPainter::SmoothPixmapTransform, false);
         break;
     case 1:
-        mView->setRenderHint(QPainter::Antialiasing, true);
-        mView->setRenderHint(QPainter::SmoothPixmapTransform, false);
+        m_view->setRenderHint(QPainter::Antialiasing, true);
+        m_view->setRenderHint(QPainter::SmoothPixmapTransform, false);
         break;
     case 2:
-        mView->setRenderHint(QPainter::Antialiasing, true);
-        mView->setRenderHint(QPainter::SmoothPixmapTransform, true);
+        m_view->setRenderHint(QPainter::Antialiasing, true);
+        m_view->setRenderHint(QPainter::SmoothPixmapTransform, true);
         break;
     }
 #else
