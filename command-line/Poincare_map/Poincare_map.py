@@ -94,7 +94,7 @@ def draw_poincare_map(data_path, processed_data_dir):
 
     if not error:
         colors = generate_colors(number_of_pendula)
-        gnuplot = subprocess.Popen(["../gnuplot/gnuplot.exe", "--persist"], stdin=subprocess.PIPE)
+        gnuplot = subprocess.Popen(["gnuplot", "--persist"], stdin=subprocess.PIPE)
         gnuplot_commands = ["rgb(r, g, b) = 65536 * int(r*255) + 256 * int(g*255) + int(b*255)",
                             "set datafile separator ','",
                             "set autoscale xy",

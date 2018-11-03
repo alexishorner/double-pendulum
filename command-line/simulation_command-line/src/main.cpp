@@ -3,9 +3,9 @@
 #include <string>
 #include <QStringList>
 #include <stdlib.h>
-#include "..\..\..\gui\src\doublependulum.h"
-#include "..\..\..\gui\src\globalconstants.h"
-#include "..\..\..\gui\src\error.h"
+#include "../../../gui/src/doublependulum.h"
+#include "../../../gui/src/globalconstants.h"
+#include "../../../gui/src/error.h"
 
 unsigned const argumentsPerPendulum(10);
 unsigned const physicalParameters(argumentsPerPendulum-1);
