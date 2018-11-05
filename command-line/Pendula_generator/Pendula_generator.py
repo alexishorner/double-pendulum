@@ -108,7 +108,7 @@ def getParametersFromUser():
 
 def interact():
     currentDir = os.path.dirname(os.path.realpath(__file__))
-    simulationRelativePath = "../simulation_command-line/simulation_command-line.exe"
+    simulationRelativePath = "../simulation_command-line/simulation_command-line"
 
     dataPath, newPath = get_paths()
 
